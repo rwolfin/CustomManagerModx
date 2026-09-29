@@ -144,6 +144,10 @@ if ($modx->event->name == 'OnManagerPageInit') {
 
         }
 
+        .modx-tree-node-tool-ct .x-btn:hover, .modx-tree-node-tool-ct .x-btn:focus {
+        color: #6691a8 !important;
+        }
+
      </style>
     ';
     $modx->regClientCSS($css);
