@@ -148,6 +148,11 @@ if ($modx->event->name == 'OnManagerPageInit') {
         color: #6691a8 !important;
         }
 
+        .x-progress-wrap .x-progress-bar {
+            background-color: #3697cd;
+            border: 0;
+        }
+
      </style>
     ';
     $modx->regClientCSS($css);
