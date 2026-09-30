@@ -153,6 +153,13 @@ if ($modx->event->name == 'OnManagerPageInit') {
             border: 0;
         }
 
+
+        .x-progress-wrap {
+        width: 100% !important;
+        border: 1px solid #3697cd;
+        }
+
+
      </style>
     ';
     $modx->regClientCSS($css);
