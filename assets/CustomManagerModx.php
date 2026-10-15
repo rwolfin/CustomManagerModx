@@ -159,6 +159,15 @@ if ($modx->event->name == 'OnManagerPageInit') {
         border: 1px solid #3697cd;
         }
 
+        ul.x-tab-strip li.x-tab-strip-active
+         {
+            color: #09121c;
+            background-color: #FFF;
+            cursor: default;
+            border-top: 3px solid #1A7FB8;
+            border-radius: 0px;
+        }
+
 
      </style>
     ';
