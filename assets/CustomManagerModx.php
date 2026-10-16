@@ -168,6 +168,10 @@ if ($modx->event->name == 'OnManagerPageInit') {
             border-radius: 0px;
         }
 
+        ul.x-tab-strip li:hover {
+        background-color: #ffffff;
+        }
+
 
      </style>
     ';
