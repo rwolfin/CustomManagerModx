@@ -143,39 +143,37 @@ if ($modx->event->name == 'OnManagerPageInit') {
             color: #7789a0;
 
         }
-
-        .modx-tree-node-tool-ct .x-btn:hover, .modx-tree-node-tool-ct .x-btn:focus {
-        color: #6691a8 !important;
-        }
-
-        .x-progress-wrap .x-progress-bar {
+        
+          .x-progress-wrap .x-progress-bar {
             background-color: #3697cd;
             border: 0;
         }
-
-
-        .x-progress-wrap {
-        width: 100% !important;
+        
+          .x-progress-wrap {
         border: 1px solid #3697cd;
         }
-
+        
         ul.x-tab-strip li.x-tab-strip-active
-         {
+        {
             color: #09121c;
             background-color: #FFF;
             cursor: default;
             border-top: 3px solid #1A7FB8;
             border-radius: 0px;
         }
-
+        
+        
         ul.x-tab-strip li:hover {
             background-color: #ffffff00;
         }
 
-        .modx-status-msg {
-            background: #31aa9a;
+         .modx-status-msg {
+            background: #3e5555;
         }
-
+        
+        .modx-status-msg:before {
+            color: #1A7FB8;
+        }
 
      </style>
     ';
