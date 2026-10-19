@@ -130,13 +130,13 @@ if ($modx->event->name == 'OnManagerPageInit') {
 
         .x-tree-node a,
         .x-dd-drag-ghost a {
-            color: #6691a8;
+            color: #7789a0;
         }
 
         .tree-pseudoroot-node.x-tree-node-el.x-tree-node-expanded,
         .tree-pseudoroot-node.x-tree-node-el.x-tree-node-expanded span,
         .tree-pseudoroot-node.x-tree-node-el.x-tree-node-expanded>.icon {
-            color: #6691a8;
+            color: #7789a0;
         }
 
         .x-tree-node-el {
@@ -173,6 +173,16 @@ if ($modx->event->name == 'OnManagerPageInit') {
         
         .modx-status-msg:before {
             color: #1A7FB8;
+        }
+        
+        .x-tree-node-el {
+            color: #7789a0;
+        }
+        
+        #modx-leftbar .x-tree-node .icon {
+            color: #7789a0;
+            opacity: 1;
+            filter: none;
         }
 
      </style>
