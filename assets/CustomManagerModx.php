@@ -184,6 +184,13 @@ if ($modx->event->name == 'OnManagerPageInit') {
             opacity: 1;
             filter: none;
         }
+        
+        .x-viewport .x-trigger-wrap-focus,
+        .x-viewport input.x-form-focus,
+        .x-viewport textarea.x-form-focus,
+        .x-viewport .x-form-textarea .x-form-focus {
+        border-color:#1A7FB8;
+        }
 
      </style>
     ';
