@@ -169,7 +169,11 @@ if ($modx->event->name == 'OnManagerPageInit') {
         }
 
         ul.x-tab-strip li:hover {
-        background-color: #ffffff00;
+            background-color: #ffffff00;
+        }
+
+        .modx-status-msg {
+            background: #3697cd;
         }
 
 
