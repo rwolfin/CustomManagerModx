@@ -173,7 +173,7 @@ if ($modx->event->name == 'OnManagerPageInit') {
         }
 
         .modx-status-msg {
-            background: #3697cd;
+            background: #31aa9a;
         }
 
 
