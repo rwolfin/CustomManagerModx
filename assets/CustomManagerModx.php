@@ -2,6 +2,14 @@
 if ($modx->event->name == 'OnManagerPageInit') {
     $css = '
     <style>
+        
+        *:focus,
+        *:focus-visible,
+        *:active {
+            outline: none !important;
+        }    
+    
+    
         /* Применяем градиент к фону панели меню */
         #modx-header {
             background: linear-gradient(to bottom,
@@ -190,6 +198,14 @@ if ($modx->event->name == 'OnManagerPageInit') {
         .x-viewport textarea.x-form-focus,
         .x-viewport .x-form-textarea .x-form-focus {
         border-color:#1A7FB8;
+        }
+        
+        *:focus:not(:focus-visible) {
+        outline: none !important;
+        }
+        
+        .ext-webkit *:focus-visible {
+            outline: auto !important;
         }
 
      </style>
