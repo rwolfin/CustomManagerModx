@@ -208,6 +208,10 @@ if ($modx->event->name == 'OnManagerPageInit') {
             outline: auto !important;
         }
 
+        .x-combo-list .x-combo-list-item.x-combo-selected {
+        background-color: #e8f0f8;
+        }
+
      </style>
     ';
     $modx->regClientCSS($css);
